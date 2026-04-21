@@ -8,6 +8,7 @@ def endpoint(route: str) -> str:
     time.sleep(1)
     
     print(f"<< response {route}")
+    return f"response for {route}"
 
 
 def server():
